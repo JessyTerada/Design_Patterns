@@ -8,5 +8,5 @@ public class Better {
 	Ingredient bakingPowder = new Ingredient("Baking powder", 1, "teaspoon");
 	Ingredient chocolatePowder = new Ingredient("Chocolate powder", 1, "tea-cup");
 	
-	
+	String better;
 }
