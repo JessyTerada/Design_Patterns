@@ -7,7 +7,9 @@ public class CakeCover extends HowToDo{
 	static Ingredient butter = new Ingredient("Butter", 2, "soup-poon");
 	static Ingredient condensedMilk = new Ingredient("Condensed milk", 2, "can");
 
-	public static void main(String[] args) {
+	public CakeCover() {
+		System.out.println("CAKE COVER");
+		
 		mixBurble(chocolateSprinkle.getNomeIng(), chocolatePowder.getNomeIng(), butter.getNomeIng(), condensedMilk.getNomeIng());
 		putCakeCover();
 	}

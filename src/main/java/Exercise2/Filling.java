@@ -6,7 +6,9 @@ public class Filling extends HowToDo{
 	static Ingredient butter = new Ingredient("Butter", 2, "soup-poon");
 	static Ingredient condensedMilk = new Ingredient("Condensed milk", 2, "cans");
 	
-	public static void main(String[] args) {
+	public Filling(){
+		System.out.println("FILLING");
+		
 		mixBurble(chocolatePowder.getNomeIng(), butter.getNomeIng(), condensedMilk.getNomeIng());
 		putFilling();
 	}

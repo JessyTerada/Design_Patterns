@@ -11,7 +11,9 @@ public class Better extends HowToDo{
 	static Ingredient bakingPowder = new Ingredient("Baking powder", 1, "teaspoon");
 	static Ingredient chocolatePowder = new Ingredient("Chocolate powder", 1, "tea-cup");
     
-	public static void main(String[] args) {
+	public Better() {
+		System.out.println("BETTER");
+		
 		separateEgg(egg);
 		knockSeparate("eggWhite"); 
 		knock("eggWhite", "yolk", sugar.getNomeIng(), milk.getNomeIng());
