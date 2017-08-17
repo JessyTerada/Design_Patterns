@@ -1,5 +1,10 @@
 package Exercise3;
 
-public class Jewel {
+public abstract class Jewel {
+	
+	@Override
+	public JewelType newJewel() {
+		return new JewelType();
+	}
 
 }

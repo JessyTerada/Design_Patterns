@@ -2,14 +2,14 @@ package Exercise3;
 
 public class Stone {
 	
-	private static String name;
+	private static String stoneName;
 	private static int precious;
 
-	public static String getName() {
-		return name;
+	public static String getStoneName() {
+		return stoneName;
 	}
-	public static void setName(String name) {
-		Stone.name = name;
+	public static void setStoneName(String name) {
+		Stone.stoneName = name;
 	}
 	public static int getPrecious() {
 		return precious;

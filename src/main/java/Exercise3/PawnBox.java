@@ -1,5 +1,6 @@
 package Exercise3;
 
-public class PawnBox {
+public abstract class PawnBox {
 
+	public abstract Jewel newJewel();
 }

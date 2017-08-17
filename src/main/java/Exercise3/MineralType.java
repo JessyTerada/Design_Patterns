@@ -1,14 +1,14 @@
 package Exercise3;
 
-public class MineralType {
+public class MineralType extends Stone{
 
-	private static String name;
+	private static String nameMineral;
 
-	public static String getName() {
-		return name;
+	public static String getMineralName() {
+		return nameMineral;
 	}
 
-	public static void setName(String name) {
-		MineralType.name = name;
+	public static void setMineralName(String name) {
+		MineralType.nameMineral = name;
 	}	
 }
