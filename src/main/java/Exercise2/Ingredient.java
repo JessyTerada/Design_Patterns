@@ -2,9 +2,9 @@ package Exercise2;
 
 public class Ingredient {
 	
-	private String nomeIng;
-	private double quant;
-	private String medidor;
+	private static String nomeIng;
+	private static double quant;
+	private static String medidor;
 	
 	public Ingredient(String nome, double quant, String medidor) {
 		this.nomeIng = nome;
@@ -12,22 +12,22 @@ public class Ingredient {
 		this.medidor = medidor;
 	}
 	
-	public String getMedidor() {
+	public static String getMedidor() {
 		return medidor;
 	}
-	public void setMedidor(String medidor) {
-		this.medidor = medidor;
+	public static void setMedidor(String medidor) {
+		medidor = medidor;
 	}
 	public String getNomeIng() {
 		return nomeIng;
 	}
-	public void setNomeIng(String nomeIng) {
-		this.nomeIng = nomeIng;
+	public static void setNomeIng(String nomeIng) {
+		nomeIng = nomeIng;
 	}
-	public double getQuant() {
+	public static double getQuant() {
 		return quant;
 	}
-	public void setQuant(double quant) {
-		this.quant = quant;
+	public static void setQuant(double quant) {
+		quant = quant;
 	}
 }
